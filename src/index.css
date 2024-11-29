@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+}
+.text-hover-underline:hover {
+  text-decoration: underline;
+  /* Underline text on hover */
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* Makes the logo circular */
+  object-fit: cover;
+  /* Ensures the image fits the container */
+  margin-bottom: 5px;
+  /* Adds some spacing between the logo and hospital name */
+}
+
+.hosp-name{
+  font-size: smaller;
+}
